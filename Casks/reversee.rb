@@ -1,9 +1,9 @@
 cask "reversee" do
   arch arm: "-arm64", intel: ""
 
-  version "2.6.0"
-  sha256 arm:   "011b00e993884a92af93d5c7fad01c90626e7bedf2ba268f93e7735879b32f83",
-         intel: "b9e822ea8528eeea8c7308294d1ee61c38de28aea57bffe37c1d526b6aef33be"
+  version "2.7.0"
+  sha256 arm:   "27f32e448f230bdd3a10a7510f64158462780bebf9ae5829add99667b62421a1",
+         intel: "da69c6c654ca02bcd2cb170ebb8cff8334658f62bdc044132117965a65c6f9ae"
 
   url "https://github.com/galusben/reversee/releases/download/v#{version}/Reversee-#{version}#{arch}.dmg"
   name "Reversee"
